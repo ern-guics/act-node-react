@@ -5,5 +5,7 @@
  * Faça a declaração da função.
  * Troque "{}" pelo nome dado a função
  */
-
-export default {};
+function Soma(x:number, y:number): number {
+  return Number(x) + Number(y);
+}
+export default Soma;

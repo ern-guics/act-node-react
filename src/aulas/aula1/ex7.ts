@@ -5,5 +5,7 @@
  * Faça a declaração da função.
  * Troque "{}" pelo nome dado a função
  */
-
-export default {};
+function ComparaNumeros(x:number, y:number): boolean {
+  return x > y;
+}
+export default ComparaNumeros;

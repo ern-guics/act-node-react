@@ -9,5 +9,5 @@
  * Troque "{}" pelo nome dado a variável
  *
  */
-
-export default {};
+const nome = "Guilherme Carvalho dos santos";
+export default nome;

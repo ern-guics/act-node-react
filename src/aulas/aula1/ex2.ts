@@ -9,5 +9,5 @@
  * Troque "{}" pelo nome dado a variável
  *
  */
-
-export default {};
+const variavelBool = false;
+export default variavelBool;

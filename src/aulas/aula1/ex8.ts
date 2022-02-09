@@ -10,5 +10,11 @@
  */
 
 // code here
+function VerificaTriangulo(a:number, b:number, c:number): boolean {
+  const primComp = Math.abs(b - c) < a && c < b + c;
+  const segundComp = Math.abs(a - c) < b && c < a + c;
+  const tercComp = Math.abs(a - b) < c && c < a + b;
 
-export default {};
+  return primComp && segundComp && tercComp;
+}
+export default VerificaTriangulo;

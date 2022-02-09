@@ -26,7 +26,10 @@
   },
   "lint-staged": {
     "*.{js, ts,css,md}": "prettier --write",
-    "*.{js,ts}": ["eslint --cache --fix", "jest --bail --findRelatedTests"]
+    "*.{js,ts}": [
+      "eslint --cache --fix",
+      "jest --bail --findRelatedTests"
+    ]
   },
   "scripts": {
     "prepare": "husky install",
